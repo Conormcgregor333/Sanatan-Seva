@@ -12664,4 +12664,11 @@ img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
 }/*# sourceMappingURL=main.css.map */

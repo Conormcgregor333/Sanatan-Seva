@@ -12666,9 +12666,9 @@ img {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: white !important;
-    color: black !important;
+/* $pnk-clr:#be0c88; */
+/* @media (prefers-color-scheme:dark) {
+  body{
+
   }
-}/*# sourceMappingURL=main.css.map */
+} *//*# sourceMappingURL=main.css.map */

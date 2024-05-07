@@ -1,0 +1,20 @@
+@mixin wind-width($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin min-width($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}

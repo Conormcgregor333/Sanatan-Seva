@@ -1,0 +1,48 @@
+.footer {
+  color: white;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .social-icons {
+    display: flex;
+    max-width: 15rem;
+    margin-inline: auto;
+    li {
+      margin-inline: 1rem;
+      margin-top: 1rem;
+    }
+  }
+  .line {
+    height: 0.2rem;
+    margin-top: 2rem;
+    background-color: orange;
+    width: 30%;
+    margin-inline: auto;
+  }
+  .contList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      margin-top: 0.5rem;
+      color: orange;
+    }
+  }
+  .credit {
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
+.footer-section {
+  margin-top: 3rem;
+  background-color: black;
+  padding-bottom: 0.5rem;
+}
+.footer-mail {
+  text-decoration: none;
+  color: orange;
+}

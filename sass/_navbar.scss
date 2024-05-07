@@ -1,0 +1,165 @@
+@import "_base";
+.navbar {
+  background-image: linear-gradient(to left, black, black);
+  .italian {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    color: white;
+    font-style: normal;
+    margin-left: 0.2rem;
+  }
+  .italian:hover {
+    color: orange;
+  }
+}
+
+.band1,
+.band2,
+.band3 {
+  height: 5px;
+  border-radius: 1px;
+  width: 40px;
+  background-color: orange;
+  margin: 0.3rem;
+}
+
+.navbar-toggler {
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+.inside-nav {
+  justify-content: end;
+}
+.navbar-nav {
+  a {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    color: white;
+  }
+  a:hover {
+    color: orange;
+  }
+}
+.navbar-brand {
+  img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+.whtsap {
+  background-color: white;
+  border: none;
+  width: 9.5rem;
+  height: 3rem;
+
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  align-items: center;
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  p {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+.whtsap:hover {
+  background-color: orange;
+  /* color: white; */
+}
+/* img{
+    display:block;
+max-width:100%;
+height:auto;
+}
+ */
+.carousel {
+  /* z-index: -10000; */
+  max-height: 50rem;
+  min-height: 10rem;
+
+  .carousel-item {
+    max-height: 35rem;
+    min-height: 10rem;
+    position: relative;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .inside-txt {
+      position: absolute;
+      top: 40%;
+      left: 13%;
+      color: white;
+      p {
+        width: 50%;
+      }
+
+      @include wind-width(500px) {
+        display: none;
+      }
+    }
+  }
+  .carousel-caption {
+    display: none;
+    p {
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      color: white;
+      font-style: normal;
+      margin-left: 1rem;
+    }
+    @include wind-width(500px) {
+      display: block;
+    }
+  }
+  .carousel-item::before {
+    content: "";
+    position: absolute;
+
+    background: linear-gradient(to right, black, transparent);
+    top: 0;
+    height: 35rem;
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+/* 
+.container{
+   height: 20rem;
+   width: 20rem;
+    position: relative;
+    overflow: hidden;
+   
+}
+.container::before{
+    content:"";
+    position: absolute;
+   
+    background: linear-gradient(to right, black,transparent);
+    top:0;
+    left:0.7rem;
+    z-index: 2;
+    height: 13rem;
+    width: 19rem;
+    opacity: 1;
+}
+.container{
+    p{
+        position: absolute;
+        top: 5rem;
+        color: white;
+        z-index: 10000;
+        left:1rem;
+        font-size: 2rem;
+    }
+}
+*/

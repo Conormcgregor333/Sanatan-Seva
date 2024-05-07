@@ -1,0 +1,28 @@
+.inter-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-inline: 2rem;
+  .inter-card {
+    margin-bottom: 2rem;
+    position: relative;
+
+    img {
+      width: 12rem;
+      height: 12rem;
+      border-radius: 6rem;
+      box-shadow: 0 0 15px black;
+    }
+    .thai {
+      left: 20%;
+    }
+    p {
+      position: absolute;
+      top: 35%;
+      left: 23%;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+}

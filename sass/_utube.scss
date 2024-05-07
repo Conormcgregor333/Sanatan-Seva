@@ -1,0 +1,63 @@
+.card-container {
+  width: 100%; /* Set width to fill the available space */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent cards from wrapping to next line */
+  display: flex; /* Use flexbox layout */
+}
+.card-container::-webkit-scrollbar {
+  width: 0; //to hide the scroll bar
+}
+.card {
+  border-radius: 1rem 1rem 1rem 1rem;
+  flex: 0 0 auto; /* Allow cards to shrink and grow */
+  width: 15rem; /* Set width for each card */
+  height: 15rem; /* Set height for each card */
+  margin: 1.5rem; /* Add spacing between cards */
+  position: relative;
+  h5 {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  p {
+    margin-left: 0.5rem;
+    color: gray;
+    font-size: 90%;
+  }
+  div {
+    p {
+      color: gray;
+      font-size: 80%;
+      margin-left: 0.5rem;
+    }
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5rem;
+  }
+  img {
+    border-radius: 1rem 1rem 0 0;
+  }
+  .play {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    height: 25%;
+    width: 25%;
+  }
+}
+.card:hover,
+.card:focus {
+  box-shadow: 0 0 10px rgb(226, 74, 226);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.utube {
+  h2 {
+    text-align: center;
+  }
+  .lower-link {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-right: 1rem;
+  }
+}

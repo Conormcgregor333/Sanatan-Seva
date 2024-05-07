@@ -1,0 +1,55 @@
+.reviews {
+  background-color: black;
+  .review-head {
+    color: white;
+    text-align: center;
+  }
+  .review-container {
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    .review-card {
+      background-color: white;
+      color: gray;
+      position: relative;
+      flex: 0 0 auto;
+      margin-left: 3rem;
+      width: 19rem;
+      height: 10rem;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+
+      div {
+        img {
+          height: 3rem;
+          width: 3rem;
+          border-radius: 1.5rem;
+        }
+        .user-img {
+          margin-left: 0.5rem;
+        }
+        .fbicon {
+          height: 1.5rem;
+          width: 1.5rem;
+          margin-top: 0.6rem;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+    .review-card:last-child {
+      margin-right: 1rem;
+    }
+  }
+  .review-container::-webkit-scrollbar {
+    height: 1rem;
+  }
+}
+.reviewbtn {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.reviewbtn:hover {
+  color: orange;
+}

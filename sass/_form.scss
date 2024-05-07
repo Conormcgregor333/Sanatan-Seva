@@ -1,0 +1,45 @@
+.form-class {
+  @include min-width(600px) {
+    width: 40%;
+    margin-inline: auto;
+  }
+  margin-top: 2rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 20rem;
+  margin-inline: auto;
+  p {
+    text-align: center;
+  }
+  button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    height: 3rem;
+    width: 5rem;
+  }
+  button:hover,
+  button:focus {
+    background-color: orange;
+    transform: scale(1.2);
+    transition: 0.2s;
+  }
+  input {
+    margin-top: 0.1rem;
+    padding: 0.2rem;
+    width: 90%;
+    margin-inline: auto;
+  }
+  textarea {
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    width: 90%;
+    margin-inline: auto;
+  }
+}
+.form-section {
+  h2 {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "_navbar";
+@import "_base";
+@import "_about";
+@import "_utube";
+@import "_media";
+@import "_form";
+@import "_services";
+@import "_reviews";
+@import "_international";
+@import "_upcoming";
+@import "_footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+.social-media {
+  h2 {
+    text-align: center;
+    margin: 1rem;
+  }
+}
+.media-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  .media-card {
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    box-shadow: 0 0 4px 4px gray;
+    .ig {
+      transform: scale(1.1);
+    }
+  }
+  .media-card:hover,
+  .media-card:focus {
+    transform: rotateZ(360deg) scale(1.1);
+    transition: 0.5s;
+  }
+}

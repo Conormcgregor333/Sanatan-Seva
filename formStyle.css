@@ -1,0 +1,41 @@
+.form {
+  max-width: 20rem;
+
+  margin-inline: auto;
+}
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+img {
+  width: 5rem;
+  height: 5rem;
+}
+
+p {
+  text-align: center;
+}
+input {
+  display: block;
+  width: 90%;
+  margin-inline: auto;
+  padding: 0.3rem;
+  margin-top: 1.2rem;
+}
+textarea {
+  display: block;
+  width: 90%;
+  margin-inline: auto;
+  padding: 0.2rem;
+}
+button {
+  display: block;
+  background-color: black;
+  color: orange;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 1rem;
+  margin-inline: auto;
+  border: none;
+}

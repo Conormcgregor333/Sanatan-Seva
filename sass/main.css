@@ -12572,7 +12572,7 @@ img {
   margin-top: 2rem;
 }
 @media screen and (min-width: 560px) {
-  .upcoming .upcom-cont {
+  .upcoming .upcom-cont, .upcoming .upcom-cont2 {
     width: 40%;
     height: 40%;
   }
@@ -12582,6 +12582,7 @@ img {
   margin-top: 1rem;
 }
 .upcoming div {
+  margin-top: 2rem;
   width: 80%;
   height: 20rem;
   border-radius: 2rem;

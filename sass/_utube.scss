@@ -54,7 +54,14 @@
   h2 {
     text-align: center;
   }
-  .lower-link {
+  .mid-link {
+    margin-top: 8rem;
+    text-decoration: none;
+   /*  display: block;
+    text-align: center; */
+    margin-right: 1rem;
+  }
+  .lower-link{
     text-decoration: none;
     display: block;
     text-align: right;

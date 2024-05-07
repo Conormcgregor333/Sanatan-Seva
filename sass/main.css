@@ -12002,6 +12002,7 @@ img {
 }
 
 .navbar-toggler img {
+  transform: translateX(1rem);
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -12233,7 +12234,7 @@ img {
 }
 .after800 div {
   width: 10rem;
-  height: 10rem;
+  max-height: 20rem;
   border-radius: 5rem;
   border-top: 5px solid orange;
   border-right: 5px solid orange;
@@ -12250,7 +12251,7 @@ img {
 }
 .after800 p {
   background-color: white;
-  max-height: 35rem;
+  max-height: 43rem;
   width: 80%;
   border: 3px solid orange;
   border-radius: 2rem;
@@ -12494,7 +12495,7 @@ img {
   color: gray;
   position: relative;
   flex: 0 0 auto;
-  margin-left: 3rem;
+  margin-left: 1rem;
   width: 19rem;
   height: 10rem;
   margin-top: 5rem;

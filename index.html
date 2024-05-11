@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/sass/main.css" />
+    <link rel="stylesheet" href="/assets/css/glightbox.min.css">
   </head>
   <body>
     <!-- -----------------------------------------------------------navbar----------------------------------------------------- -->
@@ -156,7 +157,7 @@
         </div>
 
         <div class="txt">
-          <h3>Pt. Shri Satyanarayan Pareek Ji</h3>
+          <h3>Pt. Shri Satyanarayan Shastri Ji</h3>
           <p>
             Pt. Shri Satyanarayan Pareek Ji is a distinguished Hindu priest with
             over three decades of enriching experience, embodying profound
@@ -243,11 +244,11 @@
     <section class="utube">
       <h2>The realm of Bhagwat</h2>
       <div class="card-container">
-        <div class="card">
-          <a href="https://www.youtube.com/watch?v=T7EDrLRUOyQ" target="_blank">
+        <div class="card" id="vid1d">
+         
             <img src="/images/thumb1.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
 
           <h5>Part 1</h5>
           <p>Bhagwat</p>
@@ -256,14 +257,11 @@
             <p>4 months ago</p>
           </div>
         </div>
-        <div class="card">
-          <a
-            href="https://www.youtube.com/watch?v=OdVI5oP2pDw&t=876s"
-            target="_blank"
-          >
+        <div class="card" id="vid2d">
+         
             <img src="/images/thumb2.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
 
           <h5>Part 2</h5>
           <p>Bhagwat</p>
@@ -272,11 +270,11 @@
             <p>4 months ago</p>
           </div>
         </div>
-        <div class="card">
-          <a href="https://www.youtube.com/watch?v=mQvNu0gZs0g" target="_blank">
+        <div class="card" id="vid3d">
+         
             <img src="/images/thumb3.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
 
           <h5>Part 3</h5>
           <p>Bhagwat</p>
@@ -285,14 +283,11 @@
             <p>4 months ago</p>
           </div>
         </div>
-        <div class="card">
-          <a
-            href="https://www.youtube.com/watch?v=2qGd0I5eGOY&t=48s"
-            target="_blank"
-          >
+        <div class="card" id="vid4d">
+        
             <img src="/images/thumb4.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
 
           <h5>Part 4</h5>
           <p>Bhagwat</p>
@@ -301,11 +296,11 @@
             <p>4 months ago</p>
           </div>
         </div>
-        <div class="card">
-          <a href="https://www.youtube.com/watch?v=U0_gbsYRdoU" target="_blank">
+        <div class="card" id="vid5d">
+         
             <img src="/images/thumb5.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
           <h5>Part 5</h5>
           <p>Bhagwat</p>
           <div>
@@ -313,14 +308,11 @@
             <p>4 months ago</p>
           </div>
         </div>
-        <div class="card">
-          <a
-            href="https://www.youtube.com/watch?v=S0UE894uIls&t=10687s"
-            target="_blank"
-          >
+        <div class="card" id="vid6d">
+        
             <img src="/images/thumb6.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
           <h5>Part 6</h5>
           <p>Bhagwat</p>
           <div>
@@ -328,14 +320,11 @@
             <p>3 months ago</p>
           </div>
         </div>
-        <div class="card">
-          <a
-            href="https://www.youtube.com/watch?v=UcGxKtdpG48&t=3068s"
-            target="_blank"
-          >
+        <div class="card" id="vid7d">
+         
             <img src="/images/thumb7.jpg" alt="" />
             <img class="play" src="./images/play.png" alt=""
-          /></a>
+          />
           <h5>Part 7</h5>
           <p>Bhagwat</p>
           <div>
@@ -609,5 +598,86 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/assets/js/glightbox.min.js"></script>
+    <script>
+       const vid1 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=T7EDrLRUOyQ",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid2 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=OdVI5oP2pDw&t=876s",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid3 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=mQvNu0gZs0g",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid4 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=2qGd0I5eGOY&t=48s",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid5 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=U0_gbsYRdoU",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid6 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=S0UE894uIls&t=10687s",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid7 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=UcGxKtdpG48&t=3068s",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+    
+    </script>
   </body>
 </html>

@@ -15,7 +15,7 @@ img{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding-inline: 1rem;
+    padding-inline: 0.8rem;
     align-items: center;
 }
 .logo{

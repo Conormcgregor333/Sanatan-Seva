@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display:block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.navbar{
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    align-items: center;
+}
+.logo{
+    width:3.5rem;
+    height:3.5rem;
+    /* margin-top: 0.5rem; */
+}
+.turkHead{
+    color:white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-wrap: wrap;
+}
+.gal{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    margin-top:2rem;
+}
+.navlink,.nvlnk{
+    color:white;
+    text-decoration: none;
+}
+.navlink{
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* .nvlnk{
+    margin-top: 0.5rem;
+} */
+.navlink:hover,.turkHead:hover{
+    color:orange;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-inline: auto;
+    margin-top: 2rem;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(1rem);
+}
+.pic{
+   margin-right:1rem;
+   margin-bottom: 1rem;
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+}
+.pic:hover{
+    img{
+      transform: scale(1.2);
+        transition: 0.3s;
+    }
+}
+footer{
+    margin-top: 3rem;
+    background-color: black;
+    padding-bottom: 1rem;
+}
+h3{
+    text-align: center;
+    color:white;
+    padding-top:1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   padding-top: 1rem;
+   justify-content: space-between;
+    max-width: 8rem;
+    margin-inline: auto;
+}
+li{
+    display: block;
+    img{
+        height: 2.7rem;
+        width:2.7rem;
+        
+    }
+}
+
+.credit{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:1rem;
+    text-align: center;
+}
+.credit{
+    display:block;
+    margin-inline: auto;
+    color:white;
+    text-decoration: none;
+}
+.credit:hover {
+  color:orange;
+
+}

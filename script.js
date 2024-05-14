@@ -5,15 +5,6 @@ function txttonum() {
   window.open(whatsappURL, "_blank");
 }
 
-/* let x = document.getElementById("reviewbtn");
-x.addEventListener("click", () => {
-  let name = document.getElementById("firstName").value;
-  let cont = document.getElementById("kontainer");
-  let crd = document.createElement("div");
-  crd.innerHTML += `<h5>${name}</h5>`;
-  cont.appendChild(crd);
-});
- */
 document.getElementById("vid1d").addEventListener("click",()=>{
   vid1.open()
 })

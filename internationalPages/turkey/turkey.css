@@ -15,7 +15,7 @@ img{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding-inline: 0.8rem;
+    padding-inline: 0.5rem;
     align-items: center;
 }
 .logo{
@@ -63,7 +63,7 @@ img{
     max-width: 80%;
     align-items: center;
     justify-content: center;
-    transform: translateX(1rem);
+    transform: translateX(0.8rem);
 }
 .pic{
    margin-right:1rem;

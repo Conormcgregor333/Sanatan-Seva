@@ -192,12 +192,12 @@
       </svg>
       <div><img class="abt-pic" src="/images/abt-pic.jpg" alt="" /></div>
       <p>
-        <span>Pt. Shri Satyanarayan Pareek Ji</span>
-        Pt. Shri Satyanarayan Pareek Ji is a distinguished Hindu priest with
+        <span>Pt. Shri Satyanarayan Shastri Ji</span>
+        Pt. Shri Satyanarayan Shastri Ji is a distinguished Hindu priest with
         over three decades of enriching experience, embodying profound wisdom
         and devotion. Renowned for his expertise in conducting musical
         marriages, His mastery of traditional Vedic chants and musical
-        intricacies elevates weddings to sacred symphonies. Pt. Pareek Ji's
+        intricacies elevates weddings to sacred symphonies.Shastri Ji's
         spiritual journey has taken him to distant lands like Turkey, Thailand,
         Bhutan, and beyond. In these diverse cultural landscapes, he has shared
         the timeless wisdom of Hindu rituals, fostering cross-cultural
@@ -244,6 +244,19 @@
     <section class="utube">
       <h2>The realm of Bhagwat</h2>
       <div class="card-container">
+        <div class="card" id="vidnew1">
+         
+          <img src="/images/day1pic.jpg" alt="" />
+          <img class="play" src="./images/play.png" alt=""
+        />
+
+        <h5>Pratham Bhaag</h5>
+        <p>Bhagwat</p>
+        <div>
+          <p>1k views</p>
+          <p>23 hours ago</p>
+        </div>
+      </div>
         <div class="card" id="vid1d">
          
             <img src="/images/thumb1.jpg" alt="" />
@@ -346,14 +359,15 @@
       <h2 class="text-center mt-3 mb-5">Global Work Experience</h2>
       <div class="inter-container">
         <div class="inter-card">
+          <a href="/internationalPages/thailand/thailand.html" > <img src="./images/thailand.jpeg" alt="" /></a>
+           <a href="/internationalPages/thailand/thailand.html"><p class="thai">Thailand</p></a>
+         </div>
+        <div class="inter-card">
           <a href="/internationalPages/turkey/turkey.html"><img src="./images/turk.jpg" alt="" /></a>
           <a href="/internationalPages/turkey/turkey.html"><p>Turkey</p></a>
           
         </div>
-        <div class="inter-card">
-         <a href="/internationalPages/thailand/thailand.html" > <img src="./images/thailand.jpeg" alt="" /></a>
-          <a href="/internationalPages/thailand/thailand.html"><p class="thai">Thailand</p></a>
-        </div>
+      
         <div class="inter-card">
           <img src="./images/bhutan.jpg" alt="" />
           <p>Bhutan</p>
@@ -501,9 +515,12 @@
     <!-- --------------------------------------------------------------------------upcoming event------------------------------------- -->
     <section class="upcoming">
       <h2 class="text-center mt-4 mb-4">Upcoming Event</h2>
-      <div class="upcom-cont mb-3">
-        <img src="/images/upcoming2.jpg" alt="" />
-      </div>
+      <a href="https://www.youtube.com/@snatanseva/streams">
+        <div class="upcom-cont mb-3">
+          <img src="/images/upcoming2.jpg" alt="" />
+        </div>
+      </a>
+    
       <div class="upcom-cont2">
         <img src="/images/upcoming-event.jpg" alt="" />
       </div>
@@ -511,7 +528,7 @@
 
       <a
         class="text-center mt-3 d-block"
-        href="https://www.youtube.com/@snatanseva/featured"
+        href="https://www.youtube.com/@snatanseva/streams"
         target="_blank"
         >Watch Live</a
       >
@@ -673,6 +690,17 @@
         elements: [
           {
             href: "https://www.youtube.com/watch?v=UcGxKtdpG48&t=3068s",
+            type: "video",
+            source: "youtube", //vimeo, youtube or local
+            width: 900,
+          },
+        ],
+        autoplayVideos: true,
+      });
+      const vid8 = GLightbox({
+        elements: [
+          {
+            href: "https://www.youtube.com/watch?v=W2gPKFj-6CY",
             type: "video",
             source: "youtube", //vimeo, youtube or local
             width: 900,

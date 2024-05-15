@@ -1,0 +1,24 @@
+document.getElementById("pic1").addEventListener("click",()=>{
+    myGallery1.open()
+})
+document.getElementById("pic2").addEventListener("click",()=>{
+    myGallery2.open()
+})
+document.getElementById("pic3").addEventListener("click",()=>{
+    myGallery3.open()
+})
+document.getElementById("pic4").addEventListener("click",()=>{
+    myGallery4.open()
+})
+document.getElementById("pic5").addEventListener("click",()=>{
+    myGallery5.open()
+})
+document.getElementById("pic6").addEventListener("click",()=>{
+    myGallery6.open()
+})
+document.getElementById("pic7").addEventListener("click",()=>{
+    myGallery7.open()
+})
+document.getElementById("pic8").addEventListener("click",()=>{
+    myGallery8.open()
+})

@@ -1,8 +1,10 @@
 .card-container {
+  margin-top: 0.5rem;
   width: 100%; /* Set width to fill the available space */
   overflow-x: auto; /* Enable horizontal scrolling */
   white-space: nowrap; /* Prevent cards from wrapping to next line */
   display: flex; /* Use flexbox layout */
+  height: 23rem;
 }
 .card-container::-webkit-scrollbar {
   width: 0; //to hide the scroll bar
@@ -12,7 +14,7 @@
   flex: 0 0 auto; /* Allow cards to shrink and grow */
   width: 15rem; /* Set width for each card */
   height: 15rem; /* Set height for each card */
-  margin: 1.5rem; /* Add spacing between cards */
+  margin: 0.7rem; /* Add spacing between cards */
   position: relative;
   h5 {
     margin-top: 0.5rem;

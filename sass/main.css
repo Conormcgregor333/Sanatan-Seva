@@ -12279,10 +12279,12 @@ img {
 }
 
 .card-container {
+  margin-top: 0.5rem;
   width: 100%; /* Set width to fill the available space */
   overflow-x: auto; /* Enable horizontal scrolling */
   white-space: nowrap; /* Prevent cards from wrapping to next line */
   display: flex; /* Use flexbox layout */
+  height: 23rem;
 }
 
 .card-container::-webkit-scrollbar {
@@ -12294,7 +12296,7 @@ img {
   flex: 0 0 auto; /* Allow cards to shrink and grow */
   width: 15rem; /* Set width for each card */
   height: 15rem; /* Set height for each card */
-  margin: 1.5rem; /* Add spacing between cards */
+  margin: 0.7rem; /* Add spacing between cards */
   position: relative;
 }
 .card h5, .card .h5 {
@@ -12371,7 +12373,7 @@ img {
   box-shadow: 0 0 4px 4px gray;
 }
 .media-container .media-card .ig {
-  transform: scale(1.1) translateY(-0.2rem);
+  transform: scale(1.1);
 }
 .media-container .media-card:hover,
 .media-container .media-card:focus {

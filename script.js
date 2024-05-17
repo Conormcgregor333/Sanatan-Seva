@@ -37,4 +37,8 @@ document.getElementById("vidnew1").addEventListener("click",()=>{
 document.getElementById("vidnew2").addEventListener("click",()=>{
   vid9.open()
 })
+document.getElementById("vidnew3").addEventListener("click",()=>{
+  vid10.open()
+})
+
 
